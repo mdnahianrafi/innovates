@@ -1,0 +1,309 @@
+/* For medium devices (tablets, 768px and up) */
+@media (max-width: 991px) {
+  /* Adjust navbar font-size and padding */
+  #header_part_one .navbar-nav .nav-item {
+    padding-right: 30px;
+    font-size: 16px;
+  }
+
+  .btnh {
+    padding: 16px 22px;
+    font-size: 16px;
+  }
+
+  /* Adjust banner text */
+  #banner_part_one .banner_text h1 {
+    padding: 0 150px;
+    font-size: 48px;
+  }
+
+  #banner_part_one .banner_text p {
+    padding: 0 150px;
+    font-size: 16px;
+  }
+
+  /* Adjust service card padding */
+  #service_part_one .card_item {
+    padding: 30px 40px 30px 10px;
+  }
+
+  #service_part_one .card_item h2 {
+    font-size: 22px;
+  }
+
+  #service_part_one .card_item p {
+    font-size: 16px;
+  }
+
+  /* Adjust about section padding */
+  #about_part_one .about_item_one {
+    padding: 80px 150px 80px 150px;
+  }
+
+  #about_part_one .about_item_one h2 {
+    font-size: 32px;
+  }
+
+  #about_part_one .about_item_one p {
+    font-size: 16px;
+  }
+
+  /* Adjust showcase section */
+  #showcase_part_one .showcase_header_text {
+    padding-right: 150px;
+  }
+
+  #showcase_part_one .showcase_header_text h2 {
+    font-size: 40px;
+  }
+
+  #showcase_part_one .showcase_item h2 {
+    font-size: 24px;
+  }
+
+  /* Counter part adjustments */
+  #counter_part_one .cp_card {
+    width: 230px;
+    height: 200px;
+    padding: 60px 30px;
+  }
+
+  #counter_part_one .cp_card h2 {
+    font-size: 36px;
+  }
+
+  #counter_part_one .cp_card p {
+    font-size: 16px;
+  }
+}
+
+/* For small devices (mobiles, 576px and up) */
+@media (max-width: 767px) {
+  /* Adjust navbar font-size and padding */
+  #header_part_one .navbar-nav .nav-item .nav-link {
+    padding-right: 15px;
+    font-size: 14px;
+    color: #000;
+  }
+
+  .btnh {
+    padding: 14px 18px;
+    font-size: 14px;
+  }
+
+  /* Adjust banner text */
+  #banner_part_one .banner_text h1 {
+    padding: 0 50px;
+    font-size: 36px;
+  }
+
+  #banner_part_one .banner_text p {
+    padding: 0 50px;
+    font-size: 14px;
+  }
+
+  /* Adjust service card padding */
+  #service_part_one .card_item {
+    padding: 20px 20px 20px 5px;
+  }
+
+  #service_part_one .card_item h2 {
+    font-size: 18px;
+  }
+
+  #service_part_one .card_item p {
+    font-size: 14px;
+  }
+
+  /* Adjust about section padding */
+  #about_part_one .about_item_one {
+    padding: 40px 50px 40px 50px;
+  }
+
+  #about_part_one .about_item_one h2 {
+    font-size: 24px;
+  }
+
+  #about_part_one .about_item_one p {
+    font-size: 14px;
+  }
+
+  /* Adjust showcase section */
+  #showcase_part_one .showcase_header_text {
+    padding-right: 50px;
+  }
+
+  #showcase_part_one .showcase_header_text h2 {
+    font-size: 28px;
+  }
+
+  #showcase_part_one .showcase_item h2 {
+    font-size: 20px;
+  }
+
+  /* Counter part adjustments */
+  #counter_part_one .cp_card {
+    width: 200px;
+    height: 180px;
+    padding: 50px 20px;
+  }
+
+  #counter_part_one .cp_card h2 {
+    font-size: 28px;
+  }
+
+  #counter_part_one .cp_card p {
+    font-size: 14px;
+  }
+
+  /* Footer adjustments */
+  #footer_part_one {
+    padding-top: 100px;
+  }
+
+  #footer_part_one .footer_logo {
+    height: 100px;
+    width: 60px;
+  }
+
+  #footer_part_one .footer_paragraph {
+    font-size: 16px;
+  }
+}
+
+
+/* Medium devices (tablets, 768px to 992px) */
+@media only screen and (max-width: 992px) {
+
+  body
+  {
+    overflow: hidden;
+  }
+  #header_part_two .navbar {
+      position: relative;
+      text-align: left;
+      padding: 10px 0;
+      background: navy;
+  }
+
+  #header_part_two .navbar .nav-link {
+    margin-right: 25px;
+    color: #000000;
+}
+  #banner_part_two {
+      padding: 100px 0 0;
+      background-size: cover;
+  }
+
+  .banner_content_two h1 {
+      font-size: 48px;
+  }
+
+  .btnj {
+      padding: 18px 24px;
+      font-size: 16px;
+  }
+
+  .card_item_two {
+      padding: 20px;
+      margin-bottom: 15px;
+  }
+
+  .slick-prev, .slick-next {
+      width: 40px;
+      height: 40px;
+  }
+
+  #service_part .slick-prev i, 
+  #service_part .slick-next i {
+      font-size: 30px;
+      top: 220px;
+  }
+  #team_part .card_content_two {
+    width: 41%;
+    height: 20%;
+}
+
+  #reliable_part .reliable_text h1 {
+      font-size: 40px;
+  }
+
+  #reliable_part .reliable_text p {
+      font-size: 16px;
+  }
+}
+
+/* Small devices (phones, less than 768px) */
+@media only screen and (max-width: 768px) {
+  #header_part_two .navbar {
+      position: relative;
+      padding: 8px 0;
+      text-align: left;
+  }
+
+  #banner_part_two {
+      padding: 80px 0 0;
+  }
+
+  .banner_content_two h1 {
+      font-size: 36px;
+  }
+
+  .btnj {
+      padding: 16px 20px;
+      font-size: 14px;
+  }
+
+  .card_item_two {
+      padding: 15px;
+      margin-bottom: 10px;
+  }
+
+  .slick-prev, .slick-next {
+      width: 35px;
+      height: 35px;
+  }
+
+  #service_part .slick-prev i, 
+  #service_part .slick-next i {
+      font-size: 25px;
+      top: 200px;
+  }
+
+  #team_part .card_content_two {
+    width: 17%;
+    height: 20%;
+}
+
+  #reliable_part .reliable_text h1 {
+      font-size: 32px;
+  }
+
+  #reliable_part .reliable_text p {
+      font-size: 14px;
+  }
+
+
+
+  #startup_part .startup_header_text h1 {
+
+    font-size: 27px;
+
+
+}
+
+#startup_part .elements_two_one {
+  top: 46%;
+  left: 24%;
+}
+
+#startup_part .startup_image_two {
+  top: 1063%;
+  left: 35%;
+}
+
+#startup_part .startupContainer-fluid .chat_box {
+  top: 1024%;
+  left: -4%;
+}
+}
