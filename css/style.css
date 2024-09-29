@@ -25,6 +25,26 @@
 
 }
 
+/* Hide the arrow (caret) beside the dropdown */
+.navbar .nav-link.dropdown-toggle::after {
+    display: none;
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.navbar-nav .dropdown .dropdown-menu a:hover {
+color: #FF5722;
+}
+
+.dropdown-item {
+    font-weight: 500;
+}
+
 .btnh {
     background: #FF5538;
     padding: 21px 28px;
@@ -505,12 +525,12 @@
 
 .stick {
     background: #373B59;
-  }
-  
-  .bg-transparent {
+}
+
+.bg-transparent {
     background-color: transparent !important;
-  }
-  
+}
+
 
 /* header part ended */
 
@@ -1685,16 +1705,14 @@ input::placeholder {
     cursor: pointer;
 }
 
-.line 
-{
+.line {
     width: 100%;
     height: 3px;
     background: #D2D2D2;
     border-radius: 25px;
 }
 
-.after_line_text
-{
+.after_line_text {
     margin-top: 22px;
     font-size: 14px;
     font-weight: 400;
@@ -1709,3 +1727,166 @@ input::placeholder {
 
 
 /* Home two  ended */
+
+
+/* Home three  ended */
+#header_part_three .navbar {
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+
+}
+
+#header_part_three .navbar .nav-item .nav-link {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    padding-right: 47px;
+
+}
+
+#header_part_three .navbar .nav-item .nav-link:hover {
+
+    color: #FF5538;
+    transition: 0.3s ease;
+
+}
+
+
+#header_part_three .navbar .navbar-toggler {
+
+    background-color: white;
+}
+
+#header_part_three .btn_three {
+    padding: 22px 26px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFF;
+    border: 1px solid #FFF;
+    font-family: "Nunito", sans-serif;
+    background: transparent;
+
+}
+
+#header_part_three .btn_three:hover {
+    color: #FF5538;
+    border: 1px solid #FF5538;
+    transition: 0.3s ease;
+}
+
+.scrolled_nav_three {
+    background-color: #373B59; /* Change to the color you want */
+  }
+/* Banner Part started  */
+#banner_part_three {
+    position: relative;
+    padding: 184px 0px 852px 0;
+    background-image: url(../images/banner\ three.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#banner_part_three h1
+{
+
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFF;
+    font-family: "Poppins", sans-serif;
+   line-height: 130%;
+}
+#banner_part_three p
+{
+padding: 0 264px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #545454;
+    font-family: "Nunito", sans-serif;
+   line-height: 200%;
+}
+#banner_part_three .round_texts p
+{
+    margin-right: 20px;
+    padding: 9px 26px;
+  display: inline-block;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #545454;
+    border: 1px solid #545454;
+    font-family: "Nunito", sans-serif;
+    background: transparent;
+}
+
+/* Container for the input and button */
+#banner_part_three .input-container {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 8px;
+    padding-left: 26%;
+    width: fit-content;
+}
+  
+  /* Input box styles */
+  #banner_part_three .input-box {
+    height: 79px;
+    width: 473px;
+    border: none;
+    border-radius: 18px;
+    outline: none;
+    
+    font-size: 16px;
+}
+  
+  /* Button styles */
+  #banner_part_three a {
+ text-decoration: none;
+ padding-top: 4%;
+}
+  #banner_part_three .analyze-btn {
+    width: 196px;
+    height: 79px;
+    background-color: #6e4ef8;
+    color: white;
+    border: none;
+    border-radius: 0px 11px 11px 0px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: -16px;
+}
+  
+  #banner_part_three .analyze-btn:hover {
+    background-color: #5939c1; /* Darker shade on hover */
+  }
+  
+  /* Style for the placeholder text */
+#banner_part_three .input-box::placeholder {
+    padding-left: 25px;
+    color: #999; 
+    font-size: 16px; 
+    line-height: 120px;
+    font-family: "Nunito", sans-serif;
+ 
+  }
+
+  #banner_part_three .brands
+  {
+    position: absolute;
+    bottom: 0;
+    left: 28%;
+  }
+
+
+/* Banner Part Ended */
+
+
+/* Home three  ended */

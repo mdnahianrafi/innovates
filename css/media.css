@@ -1,4 +1,145 @@
 /* For medium devices (tablets, 768px and up) */
+@media (max-width: 1199px) {
+  /* Adjust navbar font-size and padding */
+  #header_part_one .navbar-nav .nav-item {
+    padding-right: 30px;
+    font-size: 16px;
+  }
+
+  .btnh {
+    padding: 16px 22px;
+    font-size: 16px;
+  }
+
+  /* Adjust banner text */
+  #banner_part_one .banner_text h1 {
+    padding: 0 150px;
+    font-size: 48px;
+  }
+
+  #banner_part_one .banner_text p {
+    padding: 0 150px;
+    font-size: 16px;
+  }
+
+  /* Adjust service card padding */
+  #service_part_one .card_item {
+    padding: 30px 40px 30px 10px;
+  }
+
+  #service_part_one .card_item h2 {
+    font-size: 22px;
+  }
+
+  #service_part_one .card_item p {
+    font-size: 16px;
+  }
+
+  /* Adjust about section padding */
+  #about_part_one .about_item_one {
+    padding: 80px 150px 80px 150px;
+  }
+
+  #about_part_one .about_item_one h2 {
+    font-size: 32px;
+  }
+
+  #about_part_one .about_item_one p {
+    font-size: 16px;
+  }
+
+  /* Adjust showcase section */
+  #showcase_part_one .showcase_header_text {
+    padding-right: 150px;
+  }
+
+  #showcase_part_one .showcase_header_text h2 {
+    font-size: 40px;
+  }
+
+  #showcase_part_one .showcase_item h2 {
+    font-size: 24px;
+  }
+
+  /* Counter part adjustments */
+  #counter_part_one .cp_card {
+    width: 230px;
+    height: 200px;
+    padding: 60px 30px;
+  }
+
+  #counter_part_one .cp_card h2 {
+    font-size: 36px;
+  }
+
+  #counter_part_one .cp_card p {
+    font-size: 16px;
+  }
+
+
+/* Home Three started  */
+/* Header Part  */
+#header_part_three .navbar .nav-item .nav-link {
+
+  font-size: 15px;
+  padding-right: 22px;
+
+}
+
+/* Header Part ended */
+
+/* Banner Part Started */
+#banner_part_three h1 {
+  font-size: 55px;
+  font-weight: 700;
+  color: #FFFF;
+  font-family: "Poppins", sans-serif;
+  line-height: 130%;
+}
+
+#banner_part_three p {
+  padding: 0 105px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+#banner_part_three .round_texts p
+{
+    margin-right: 18px;
+    padding: 9px 21px;
+
+    font-size: 18px;
+
+}
+#banner_part_three .input-container {
+
+  border-radius: 8px;
+  padding-left: 18%;
+
+}
+
+#banner_part_three .input-box {
+  height: 75px;
+  width: 462px;
+  border: none;
+}
+
+#banner_part_three .analyze-btn {
+  width: 185px;
+  height: 76px;
+}
+
+#banner_part_three .brands {
+
+  left: 3%;
+}
+/* Banner Part ended */
+
+
+/* Home Three ended */
+}
+
+
 @media (max-width: 991px) {
   /* Adjust navbar font-size and padding */
   #header_part_one .navbar-nav .nav-item {
@@ -75,163 +216,87 @@
   #counter_part_one .cp_card p {
     font-size: 16px;
   }
+
+
+  /* Home Three started  */
+/* Header Part Started */
+  #header_part_three .navbar {
+    text-align: center;
 }
 
-/* For small devices (mobiles, 576px and up) */
-@media (max-width: 767px) {
-  /* Adjust navbar font-size and padding */
-  #header_part_one .navbar-nav .nav-item .nav-link {
-    padding-right: 15px;
-    font-size: 14px;
-    color: #000;
-  }
+#header_part_three .navbar .nav-item .nav-link {
+  
+  font-size: 14px;
+margin-bottom: 5px;
 
-  .btnh {
-    padding: 14px 18px;
-    font-size: 14px;
-  }
-
-  /* Adjust banner text */
-  #banner_part_one .banner_text h1 {
-    padding: 0 50px;
-    font-size: 36px;
-  }
-
-  #banner_part_one .banner_text p {
-    padding: 0 50px;
-    font-size: 14px;
-  }
-
-  /* Adjust service card padding */
-  #service_part_one .card_item {
-    padding: 20px 20px 20px 5px;
-  }
-
-  #service_part_one .card_item h2 {
-    font-size: 18px;
-  }
-
-  #service_part_one .card_item p {
-    font-size: 14px;
-  }
-
-  /* Adjust about section padding */
-  #about_part_one .about_item_one {
-    padding: 40px 50px 40px 50px;
-  }
-
-  #about_part_one .about_item_one h2 {
-    font-size: 24px;
-  }
-
-  #about_part_one .about_item_one p {
-    font-size: 14px;
-  }
-
-  /* Adjust showcase section */
-  #showcase_part_one .showcase_header_text {
-    padding-right: 50px;
-  }
-
-  #showcase_part_one .showcase_header_text h2 {
-    font-size: 28px;
-  }
-
-  #showcase_part_one .showcase_item h2 {
-    font-size: 20px;
-  }
-
-  /* Counter part adjustments */
-  #counter_part_one .cp_card {
-    width: 200px;
-    height: 180px;
-    padding: 50px 20px;
-  }
-
-  #counter_part_one .cp_card h2 {
-    font-size: 28px;
-  }
-
-  #counter_part_one .cp_card p {
-    font-size: 14px;
-  }
-
-  /* Footer adjustments */
-  #footer_part_one {
-    padding-top: 100px;
-  }
-
-  #footer_part_one .footer_logo {
-    height: 100px;
-    width: 60px;
-  }
-
-  #footer_part_one .footer_paragraph {
-    font-size: 16px;
-  }
 }
 
+#header_part_three .btn_three {
+  padding: 18px 22px;
+  
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFF;
 
-/* Medium devices (tablets, 768px to 992px) */
-@media only screen and (max-width: 992px) {
 
-  body
-  {
-    overflow: hidden;
-  }
-  #header_part_two .navbar {
-      position: relative;
-      text-align: left;
-      padding: 10px 0;
-      background: navy;
-  }
-
-  #header_part_two .navbar .nav-link {
-    margin-right: 25px;
-    color: #000000;
 }
-  #banner_part_two {
-      padding: 100px 0 0;
-      background-size: cover;
-  }
+    /* Header Part Ended  */
 
-  .banner_content_two h1 {
+    /* Banner Part Ended  */
+    #banner_part_three h1 {
       font-size: 48px;
   }
-
-  .btnj {
-      padding: 18px 24px;
-      font-size: 16px;
-  }
-
-  .card_item_two {
-      padding: 20px;
-      margin-bottom: 15px;
-  }
-
-  .slick-prev, .slick-next {
-      width: 40px;
-      height: 40px;
-  }
-
-  #service_part .slick-prev i, 
-  #service_part .slick-next i {
-      font-size: 30px;
-      top: 220px;
-  }
-  #team_part .card_content_two {
-    width: 41%;
-    height: 20%;
+#banner_part_three p {
+    padding: 4px 20px;
+    font-size: 16px;
 }
 
-  #reliable_part .reliable_text h1 {
-      font-size: 40px;
-  }
-
-  #reliable_part .reliable_text p {
-      font-size: 16px;
-  }
+#banner_part_three .round_texts p {
+  margin-right: 15px;
+  padding: 6px 19px;
+  font-size: 16px;
 }
+
+
+#banner_part_three .input-container {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding-left: 17%;
+  width: fit-content;
+}
+
+#banner_part_three .input-box {
+  height: 60px;
+  width: 350px;
+  border: none;
+  border-radius: 18px;
+  outline: none;
+  font-size: 16px;
+}
+
+#banner_part_three .analyze-btn {
+  width: 131px;
+  height: 64px;
+  background-color: #6e4ef8;
+  color: white;
+  border: none;
+  border-radius: 0px 11px 11px 0px;
+  cursor: pointer;
+  font-size: 13px;
+  margin-left: -16px;
+}
+
+#banner_part_three .brands {
+  left: 2%;
+}
+    /* Banner Part Ended  */
+
+/* Home Three ended */
+}
+
 
 /* Small devices (phones, less than 768px) */
 @media only screen and (max-width: 768px) {
@@ -306,4 +371,87 @@
   top: 1024%;
   left: -4%;
 }
+
+
+/* Home Three Started  */
+#header_part_three .btn_three
+{
+margin-top: 20px;
+    
+}
+
+/* Banner Part Started */
+#banner_part_three h1 {
+  font-size: 26px;
+}
+
+#banner_part_three p {
+  padding: 2px 0px;
+  font-size: 9px;
+}
+
+#banner_part_three .round_texts p {
+  margin-right: 7px;
+  padding: 3px 10px;
+  font-size: 12px;
+}
+
+#banner_part_three .input-container {
+  padding-top: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding-left: 11%;
+  width: fit-content;
+}
+
+#banner_part_three .input-box {
+  height: 39px;
+  width: 205px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 10px;
+}
+
+#banner_part_three .input-box {
+  height: 38px;
+  width: 213px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 10px;
+}
+
+
+#banner_part_three .analyze-btn {
+  width: 83px;
+  height: 40px;
+  background-color: #6e4ef8;
+  color: white;
+  border: none;
+  border-radius: 0px 11px 11px 0px;
+  cursor: pointer;
+  font-size: 8px;
+  margin-left: -6px;
+}
+
+
+#banner_part_three .input-box::placeholder {
+  padding-left: 15px;
+  color: #999; 
+  font-size: 11px; 
+  line-height: 120px;
+  font-family: "Nunito", sans-serif;
+
+}
+
+#banner_part_three .brands {
+  left: 0%;
+}
+/* Banner Part Ended  */
+
+/* Home Three Ended  */
+
 }

@@ -240,7 +240,12 @@ $(document).ready(function () {
   // JavaScript
 
 
-  
+  // JS For Home Three Started
+
+
+
+
+  // JS For Home Three Ended
   
 
 
@@ -248,7 +253,7 @@ $(document).ready(function () {
 })
 
 
-// https://www.youtube.com/watch?v=V-HqoU-2z9o
+
 
 
 
