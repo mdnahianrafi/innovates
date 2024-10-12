@@ -1,14 +1,22 @@
 // counterUp jequery Plugin
 $(function()
 {
-  $(window).on('scroll', function () {
-    var scroll = $(window).scrollTop();
-    if (scroll < 245) {
-      $(".sticky").removeClass("stick");
-    } else {
-      $(".sticky").addClass("stick");
-    }
-  });
+
+  AOS.init();
+  
+  $(window).scroll(function()
+{
+let scrolling = $(this).scrollTop();
+
+if(scrolling>50)
+{
+  $('.navbar').addClass('scrolled_nav_three');
+}
+else
+{
+  $('.navbar').removeClass('scrolled_nav_three');
+}
+});
   
     $('.counter').counterUp({
         delay: 10,
@@ -230,17 +238,68 @@ $(document).ready(function () {
 
 
 
-
-
-
-
-
-
-  
-  // JavaScript
-
-
   // JS For Home Three Started
+
+  let scene = document.getElementById('scene');
+  let parallaxInstance = new Parallax(scene, {
+    relativeInput: true
+  });
+
+// Initialize ProgressBar for progress-bar1
+let bar1 = new ProgressBar.Circle('#progress-bar1', {
+  color: '#7968EF', // Progress bar color
+  strokeWidth: 5,   // Thickness of the progress bar
+  trailWidth: 5,    // Thickness of the background trail
+  trailColor: '#E4F0FF', // Background color of the circle
+  duration: 2000,   // Animation duration
+  easing: 'easeInOut',
+  from: { color: '#f00', width: 1 },
+  to: { color: '#0f0', width: 10 },
+  // Set the progress text to update
+  step: function(state, circle) {
+    let value = Math.round(circle.value() * 100);
+    circle.setText(value + '%');
+  }
+});
+
+bar1.animate(0.12); // Animate to 75%
+
+// Initialize ProgressBar for progress-bar2
+let bar2 = new ProgressBar.Circle('#progress-bar2', {
+  color: '#F8A64C',
+  strokeWidth: 5,
+  trailWidth: 5,
+  trailColor: '#E4F0FF', // Background color of the circle
+  duration: 2000,
+  easing: 'easeInOut',
+  from: { color: '#f00', width: 1 },
+  to: { color: '#0f0', width: 10 },
+  step: function(state, circle) {
+    let value = Math.round(circle.value() * 100);
+    circle.setText(value + '%');
+  }
+});
+
+bar2.animate(0.14); // Animate to 85%
+
+// Initialize ProgressBar for progress-bar3
+let bar3 = new ProgressBar.Circle('#progress-bar3', {
+  color: '#63DE9D',
+  strokeWidth: 5,
+  trailWidth: 5,
+  trailColor: '#E4F0FF', // Background color of the circle
+  duration: 2000,
+  easing: 'easeInOut',
+  from: { color: '#f00', width: 1 },
+  to: { color: '#0f0', width: 10 },
+  step: function(state, circle) {
+    let value = Math.round(circle.value() * 100);
+    circle.setText(value + '%');
+  }
+});
+
+bar3.animate(0.11); // Animate to 95%
+
 
 
 

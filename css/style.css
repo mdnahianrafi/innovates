@@ -512,20 +512,21 @@ color: #FF5722;
     font-size: 18px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
+    border-radius: 15px;
 
 }
 
 #header_part_two .btni:hover {
+  
     background: transparent;
+    color: #FFFF;
+    border: 1px solid #FFF;
     transition: all 0.3s ease;
-    color: #FFF;
-    border: 1px solid white;
 
 }
 
-.stick {
-    background: #373B59;
-}
+
+
 
 .bg-transparent {
     background-color: transparent !important;
@@ -674,13 +675,23 @@ color: #FF5722;
     transition: 0.3s ease;
 }
 
+
+
 .extra_two_human {
     position: absolute;
     top: 107px;
     right: 0;
-
+    animation: moveLeftRight 2s ease-in-out infinite; /* Adjust duration for speed */
 }
 
+@keyframes moveLeftRight {
+    0%, 100% {
+        transform: translateX(0); /* Start position */
+    }
+    50% {
+        transform: translateX(10px); /* Move right slightly */
+    }
+}
 .extra_two_arrow {
     position: absolute;
     top: 65%;
@@ -1780,18 +1791,59 @@ input::placeholder {
 }
 
 .scrolled_nav_three {
-    background-color: #373B59; /* Change to the color you want */
+    background-color: #082859 !important; /* Change to the color you want */
+    animation: sticks 1s;
   }
-/* Banner Part started  */
+ @keyframes sticks 
+ {
+    from{
+        top: -200px;
+    }
+    to
+    {
+        top: 0;
+    }
+ }
+/* Banner Part Three started  */
 #banner_part_three {
     position: relative;
-    padding: 184px 0px 852px 0;
-    background-image: url(../images/banner\ three.png);
+    padding: 0px 0px 852px 0px;
+    background-image: url(../images/banner_three_zero.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    overflow: hidden;
+}
+#banner_part_three #scene .layer {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+}
+#banner_part_three #scene .layer .layer_circle img {
+    height: 50vh;
+    position: absolute;
+    top: -60%;
+    left: 0;
+    background-size: cover;
+}
+#banner_part_three #scene .layer img {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    z-index: -5;
 }
 
+
+#banner_part_three .container
+{
+
+margin-top: 184px;
+}
 #banner_part_three h1
 {
 
@@ -1883,10 +1935,299 @@ padding: 0 264px;
     position: absolute;
     bottom: 0;
     left: 28%;
+    z-index: 5;
   }
 
 
-/* Banner Part Ended */
+  .clouds .cloud_one img {
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    z-index: 2;
+}
+.clouds .cloud_two img {
+    position: absolute;
+    bottom: 0%;
+    left: -3%;
+    z-index: 1;
+}
+  .clouds .cloud_three img {
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    z-index: 0;
+}
 
+#banner_part_three .extra_element img {
+    position: absolute;
+    top: 13%;
+    right: -5%;
+}
+/* Banner Part Three Ended */
+
+/* Service Part Three Started  */
+#service_part_three
+{
+    padding: 20px 0 156px 0;
+}
+
+#service_part_three .service_header_text h4
+{
+    color: #7968EF; 
+    font-size: 24px; 
+    font-weight: 500;
+    line-height: 150%;
+    font-family: "Nunito", sans-serif;
+}
+#service_part_three .service_header_text h1 {
+    padding: 0 596px;
+    color: #29313D;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+    font-family: "Poppins", sans-serif;
+}
+#service_part_three .seo_banner_part p {
+    color: #29313D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 200%;
+    font-family: "Poppins", sans-serif;
+}
+
+.bg_violate
+{
+    background: #7a68ef27;
+}
+.bg_peanut
+{
+    background: #f8a54c23;
+}
+.bg_lgreen
+{
+    background: #63de9c2a;
+}
+#service_part_three .service_card {
+    padding: 36px 121px 36px 36px;
+    border-radius: 25px;
+}
+#service_part_three .service_card a
+{
+text-decoration: none;
+}
+#service_part_three .service_card h1
+{
+    color: #29313D;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 140%;
+    font-family: "Poppins", sans-serif;
+}
+#service_part_three .service_card h1:hover
+{
+color: #F44C4C;
+}
+#service_part_three .service_card p{
+    color: #29313D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 200%;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Service Part Three Ended  */
+
+/* Traffic Part Three Started  */
+#traffic_part_three
+{
+    padding: 80px 0;
+}
+#traffic_part_three .traffic_title_text h2
+{
+    color: #7968EF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    font-family: "Nunito", sans-serif;
+}
+#traffic_part_three .traffic_title_text h1
+{
+    color: #29313D;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+    font-family: "Poppins", sans-serif;
+}
+#traffic_part_three .traffic_title_text p
+{
+    padding-right: 0;
+    color: #29313D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 200%;
+    font-family: "Poppins", sans-serif;
+}
+
+#traffic_part_three .progress_bars  .progress-circle {
+    width: 125px;
+    height: 125px;
+    margin-right: 10px ;
+    position: relative;
+ 
+}
+
+#traffic_part_three .progress_bars .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Traffic Part Three Ended  */
+
+/* Help Part Three started  */
+#help_part_three
+{
+    padding: 118px 0;
+    position: relative;
+}
+
+
+
+#help_part_three .help_header_text h2
+{
+
+    color: #7968EF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 200%;
+    font-family: "Nunito", sans-serif;
+}
+#help_part_three .help_header_text h1
+{
+
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.nav-pills .nav-item .box_one {
+    margin-right: 31px;
+    padding: 38px 20px 40px;
+    border-radius: 25px;
+    background: #63de9c40;
+    color: #000;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link:hover .box_one
+{
+
+    clip-path: polygon(0% 0%, 100% 0%, 100% 77.3%, 60% 77.3%, 49.7% 89.2%, 42.1% 77.3%, 0% 77.3%);
+    background: #F8A64C;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 38px 20px 40px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.nav-pills .nav-item .box_two {
+    margin-right: 31px;
+    padding: 38px 20px 40px;
+    background: #7a68ef39;
+    color: #000;
+    border-radius: 25px;
+   
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link:hover  .box_two {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 77.3%, 60% 77.3%, 49.7% 89.2%, 42.1% 77.3%, 0% 77.3%);
+    background: #7a68efc3;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 38px 20px 40px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.nav-pills .nav-item .box_three {
+    margin-right: 31px;
+    padding: 38px 20px 40px;
+    background: #FEF6EC;
+    color: #000;
+    border-radius: 25px;
+   
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link  .box_three {
+    padding: 38px 20px 40px;
+    border-radius: 25px;
+    background: #FEF6EC;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link:hover .box_three {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 78.6%, 60% 78.6%, 49.7% 89.6%, 42.1% 78.6%, 0% 78.6%);
+    background: #F8A64C;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 38px 20px 40px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+#help_part_three .help_services p
+{
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+    font-family: "Nunito" ,sans-serif;
+ 
+}
+
+#help_part_three .tab-content h1
+{
+    font-size: 36px;
+font-weight: 600;
+line-height: 140%;
+font-family: "Poppins" ,sans-serif;
+}
+#help_part_three .tab-content p
+{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 200%;
+    font-family: "Nunito" ,sans-serif;
+}
+
+#help_part_three .help_services a
+{
+
+text-decoration: none;
+color: #FFF;
+}
+#help_part_three .help_services .help_btn
+{
+position: absolute;
+    margin-top: 48px;
+padding: 30px;
+background: #6A55EA;
+font-size: 18px;
+font-weight: 600;
+line-height: 140%;
+font-family: "Nunito" ,sans-serif;
+border-radius: 25px;
+}
+#help_part_three .help_services .help_btn:hover
+{
+
+background: transparent;
+border: 1px solid #6A55EA;
+color: #2508e0;
+transition: all 0.3s ease;
+}
+
+/* Help Part Three Ended  */
 
 /* Home three  ended */
